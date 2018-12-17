@@ -1,0 +1,26 @@
+---
+##########################################
+# List with available parameters is here #
+# https://github.com/alexandrubau/athena #
+##########################################
+
+#################
+# Deploy        #
+#################
+
+deploy_ssh_key: /vagrant/resources/private/id_rsa
+deploy_git_repo: git@github.com:alexandrubau/swatch.git
+deploy_dest: /var/www/swatch
+#deploy_composer_path: "{{ deploy_dest }}/composer.json"
+
+#################
+# PHP           #
+#################
+
+php_version: 7.2
+
+#################
+# Vagrant       #
+#################
+
+# empty

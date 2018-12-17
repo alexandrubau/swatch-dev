@@ -1,0 +1,9 @@
+---
+- name: core
+  src: https://github.com/alexandrubau/ansible-core.git
+- name: deploy
+  src: https://github.com/alexandrubau/ansible-deploy.git
+- name: php
+  src: https://github.com/alexandrubau/ansible-php.git
+- name: vagrant
+  src: https://github.com/alexandrubau/ansible-vagrant.git

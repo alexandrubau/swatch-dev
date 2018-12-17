@@ -1,0 +1,2 @@
+[local]
+swatch ansible_connection=local
