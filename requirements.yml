@@ -5,5 +5,7 @@
   src: https://github.com/alexandrubau/ansible-deploy.git
 - name: php
   src: https://github.com/alexandrubau/ansible-php.git
+- name: samba
+  src: https://github.com/alexandrubau/ansible-samba.git
 - name: vagrant
   src: https://github.com/alexandrubau/ansible-vagrant.git

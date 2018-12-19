@@ -20,6 +20,18 @@ deploy_dest: /var/www/swatch
 php_version: 7.2
 
 #################
+# Samba         #
+#################
+
+samba_shares:
+  - name: swatch
+    path: "{{ deploy_dest }}"
+
+samba_users:
+  - username: vagrant
+    password: vagrant
+
+#################
 # Vagrant       #
 #################
 
