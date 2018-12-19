@@ -1,0 +1,4 @@
+---
+- name: Set site permissions
+  shell: date
+  notify: site-permissions
